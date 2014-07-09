@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+
+  "name": "Data Scraping with PHP",
+  "description": "This extension demonstrates a browser action that showcases data scraping done with PHP.",
+  "version": "1.0",
+
+  "permissions": [
+    "http://ln0.in/tutorial/"
+  ],
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  }
+}
