@@ -3,6 +3,7 @@
  * @author Purnesh Tripathi <purnesh.xyz@gmail.com> 
  */
 
+//The URL that you want to scrap data from
 $url = "http://www.quora.com/How-can-we-make-a-Chrome-Extension-using-data-scraped-via-PHP-Is-it-possible";
 $ch = curl_init($url);
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);

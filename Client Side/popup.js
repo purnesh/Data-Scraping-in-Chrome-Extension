@@ -30,7 +30,7 @@ function getTitle(text) {
 
 // Make the actual CORS request.
 function makeCorsRequest() {
-	  // All HTML5 Rocks properties support CORS.
+	  //The URL below is the URL of your Data Scraping script written in PHP.
 	  var url = 'http://ln0.in/tutorial/index.php';
 
 	  var xhr = createCORSRequest('GET', url);
@@ -42,7 +42,6 @@ function makeCorsRequest() {
 	  // Response handlers.
 	  xhr.onload = function() {
 		var text = xhr.responseText;
-		var title = getTitle(text);
 		document.getElementById('revert').innerHTML=text;
 	  };
 
